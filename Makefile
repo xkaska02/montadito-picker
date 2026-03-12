@@ -8,7 +8,7 @@ $(TARGET).o: $(TARGET).c
 	$(CC) -c -g $(TARGET).c
 
 clean:
-	rm $(TARGET).o $(TARGET)
+	rm *.o $(TARGET) new_montadito_list
 
 run: $(TARGET)
 	./$(TARGET)
