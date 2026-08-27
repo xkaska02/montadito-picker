@@ -18,7 +18,7 @@ public:
 
     bool getFavorite();
     bool getTried();
-
+    friend std::ostream& operator<<(std::ostream& os, const Montadito& obj);
     Montadito(std::string name, std::string category, bool favorite, bool tried);
     Montadito(std::string name, std::string category);
     ~Montadito() {}
