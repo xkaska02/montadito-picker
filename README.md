@@ -5,4 +5,8 @@ This program aims to solve my problem of being on Erasmus in Spain and not knowi
 
 I decided to remake it in cpp.
 
+## First idea of classes needs more thinking out
+![Class Diagram](docs/class_diagram.drawio.png)
 
+## Very high quality Screen flow diagram
+![Screen flow diagram](docs/pseudo_figma.png)
